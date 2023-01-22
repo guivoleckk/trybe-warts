@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    min-width: 100%;
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .trybewarts-header-logo {
+    height: 80px;
+  }
+  
+  .trybewarts-login {
+    display: flex;
+    gap: 15px;
+  }
+  
+  #email-user {
+    border-radius: 6px;
+  }
+  
+  #password-user {
+    border-radius: 6px;
+  }
+  
+  #botao-enviar {
+    margin-right: 8px;
+    border-radius: 2px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+  }
+  
+  #evaluation-form {
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+  }
+  
+  #full-name {
+    gap: 15px;
+    margin-bottom: 16px;   
+  }
+  
+  #input-name {
+    border-radius: 6px;
+  }
+  
+  #input-lastname {
+    border-radius: 6px;
+  }
+  
+  #formulario {
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  #evaluation-form > section {
+    display: flex;
+  }
+  
+  #input-email {
+    border-radius: 6px;
+  }
+  
+  #qual-familia {
+    margin-bottom: 16px;
+  }
+  
+  #aprender-conteudo {
+    margin-bottom: 16px;
+  }
+  
+  #avaliacao {
+    margin-bottom: 16px;
+  }
+  
+  #textarea {
+    width: 400px;
+    position: relative;
+  }
+  
+  #counter {
+    margin-bottom: 16px;
+  }
+  
+  #trybewarts-forms-logo {
+    height: 500px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  #form-data {
+    display: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #form-data {
+    background-color: rgb(50, 167, 145);
+    max-height: 150px;
+    width: 400px;
+    border-radius: 10px;
+  }
+  

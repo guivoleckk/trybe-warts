@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+    
+    .trybewarts-header-logo {
+        width: 70px;
+    }
+    .trybewarts-login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #full-name {
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario > input {
+        width: 270px;
+    }
+
+    #formulario > select {
+        width: 270px;
+    }
+
+    #trybewarts-forms-logo {
+        width: 5px;
+    }
+
+    #label-content {
+        font-size: 15px;
+    }
+
+    textarea {
+        max-width: 300px;    
+    }
+
+    #counter {
+        display: none;
+    }
+}
